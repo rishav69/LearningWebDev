@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="RACE_R.css">
+    </head>
+<body>
+    <h1>Race Registration</h1>
+    <form>
+        <div>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" class="b" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname"  class="b" class="b" required>
+        </div> <br>
+
+        <div>
+            <b>Select Race</b><br>
+            <label for="50">50 Meter Race</label>
+            <input type="radio" id="50" name="r" value="50mt"  class="b"> <br>
+            <label for="hm">Half Marathon </label>
+            <input type="radio" id="hm" name="r" value="halfM" class="b"> <br>
+            <label for="fm">Full Marathon</label>
+            <input type="radio" id="fm" name="r" valur="fullM" class="b"> <br>
+        </div> <br>
+
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" class="b" required>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" class="b" required>
+        </div> <br>
+
+        <div>
+            <label for="age">Age Group</label>
+            <select name="age" id="age" class="b">
+                <option value="a">18-23</option>
+                <option value="b">23-27</option>
+                <option value="c">27-30</option>
+                <option value="d">30-33</option>
+            </select>
+        </div> <br>
+        <button type="submil">REGISTER</button>
+    </form>
+
+</html>

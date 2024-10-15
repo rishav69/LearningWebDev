@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
+span{
+    size:"5px";
+}
+
+table,th,td{
+    border: 2px solid black;
+
+}
